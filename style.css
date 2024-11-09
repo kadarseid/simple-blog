@@ -1,0 +1,27 @@
+/* Type selector and Or selector  */
+header,
+footer {
+  background-color: purple;
+}
+
+/* descendant Selector and Or selector */
+header h1,
+footer {
+  color: white;
+  text-align: center;
+}
+
+/* Direct child Selector */
+article > h2 {
+  font-family: Arial;
+}
+
+/* General Sibling Selector */
+h2 ~ div {
+  color: grey;
+}
+
+/* Adjacent Sibling Selector */
+h2 + div {
+  font-style: italic;
+}
